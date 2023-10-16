@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: actions
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/enatan-tenant/actions/actions@sha256:9cee6fc3f398f52eb5fbf5754e082e093bbaaedb19848ce0cd1fc94c065a041b
+      - image: quay.io/redhat-user-workloads-stage/enatan-tenant/actions/actions@sha256:84265931d8a962c82b26e5e9e6574ec75715dd5821507ee4f1bcc67b043b9aea
         imagePullPolicy: Always
         name: container-image
         ports:

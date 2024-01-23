@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/enatan-tenant/actions/actions@sha256:3e52fab43fdedb6dd3809d40a63210b823c0683ab87948bd5e3bacc99b55aced
+      - image: quay.io/redhat-user-workloads-stage/enatan-tenant/actions/actions@sha256:af24c962d12486631d78e5afc500c155800c305396fb6fe360eda4711b0dc493
         name: container-image
         resources: {}
 status: {}

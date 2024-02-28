@@ -4,6 +4,7 @@ metadata:
   creationTimestamp: null
   name: actions
 spec:
+  replicas: 1
   selector: {}
   strategy: {}
   template:
@@ -11,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/enatan-tenant/actions/actions@sha256:af24c962d12486631d78e5afc500c155800c305396fb6fe360eda4711b0dc493
+      - image: quay.io/redhat-user-workloads-stage/enatan-tenant/actions/actions@sha256:d592231efe344977e82aa5d8196a4fa33a6d892d54715f6a19f283f2e8fcbd4f
         name: container-image
         resources: {}
 status: {}
